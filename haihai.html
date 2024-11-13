@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #FFE1E1;
+            color: #885757;
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3em;
+            color: #885757;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2em;
+            color: #885757;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        nav a {
+            margin: 0 10px;
+            padding: 10px 20px;
+            background-color: #885757;
+            color: #FFE1E1;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background-color: #714545;
+        }
+
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 80%;
+            font-size: 1em;
+        }
+
+        th, td {
+            border: 1px solid #885757;
+            padding: 10px;
+        }
+
+        img {
+            margin-top: 20px;
+            width: 200px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        section {
+            margin: 20px auto;
+            width: 80%;
+            text-align: left;
+            max-width: 800px;
+        }
+
+        .photo-gallery {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            margin: 20px auto;
+            width: 80%;
+        }
+
+        .photo-gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <h1>PORTOFOLIO</h1>
+    
+    <img src="panes.png" alt="Foto ku yh" />
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#tools">Tools & Proficiency</a>
+        <a href="#experience">Pengalaman</a>
+        <a href="#education">Riwayat Pendidikan</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p><strong>Nama:</strong> Anisah Octa Rohila</p>
+        <p><strong>NIM:</strong> 123140137</p>
+        <p><strong>Kelompok:</strong> 16</p>
+        <p><strong>Kontak:</strong></p>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/anisah-octa-rohila-5b55a8280/" target="_blank">LinkedIn</a></li>
+            <li><a href="mailto:anisah.123140137@student.itera.ac.id">Email</a></li>
+        </ul>
+    </section>
+
+    <section id="tools">
+        <h2>Tools and Proficiency</h2>
+        <p>Canva, Alight Motion, After Effects, Excel, Adobe Photoshop</p>
+    </section>
+
+    <section id="experience">
+        <h2>Pengalaman</h2>
+        <p>Sering mengikuti kepanitiaan dari divisi acara, humas, dan PDD. Saat ini, menjabat sebagai Kepala Divisi Media dan Informasi PIK-R Sejahtera 2024/2025. Dan juga sedang menjadi asisten praktikum PKS TPB 6 ITERA.</p>
+    </section>
+
+    <div class="photo-gallery">
+        <img src="fotosatu.jpg" alt="Foto 1">
+        <img src="fotodua.png" alt="Foto 2">
+        <img src="fototiga.jpg" alt="Foto 3">
+        <img src="fotoempat.png" alt="Foto 4">
+    </div>
+
+    <section id="education">
+        <h2>Riwayat Pendidikan</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Institusi</th>
+                    <th>Tahun</th>
+                    <th>Jurusan</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>MAN 1 Bandar Lampung</td>
+                    <td>2020 - 2023</td>
+                    <td>MIA</td>
+                </tr>
+                <tr>
+                    <td>Institut Teknologi Sumatera</td>
+                    <td>2023 - Sekarang</td>
+                    <td>Teknik Informatika</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>
